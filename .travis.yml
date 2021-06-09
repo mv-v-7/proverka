@@ -2,4 +2,5 @@ language: python
 
 script:
   - python -m unittest discover
+  - coverage run  -m unittest discover
   - coveralls
